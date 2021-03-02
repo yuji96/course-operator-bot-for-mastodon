@@ -1,0 +1,57 @@
+{
+  "admin": "moai_test",
+  "description": "tag pick upper test",
+  "tagbots": [
+    {
+      "id": "tagbot1",
+      "bio_title": "今週のレビュアー",
+      "target_tag": "なぞのばしょ",
+      "transfar_groups": [
+        {
+          "id": "group1",
+          "group_name": "二次レビュアー",
+          "members": ["moai_test", "moai_test_nowhere"]
+        },
+        {
+          "id": "group2",
+          "group_name": "一次レビュアー",
+          "members": [
+            "moai_test_nowhere_2",
+            "moai_test_nowhere_3",
+            "moai_test_nowhere_4"
+          ]
+        }
+      ],
+      "frequency_month": 0,
+      "frequency_date": 0,
+      "frequency_hour": 0,
+      "frequency_minute": 0,
+      "frequency_second": 60,
+      "transfar_comment": "<name>さんからのレビュー依頼です。\n<content>\n<mentions>",
+      "take_turn_comment": "レビュアー交代です。今週の当番は\n<content>\nです。よろしくお願いします。\ncc: <mentions>",
+      "visibility": "private",
+      "is_active": "true"
+    }
+  ],
+  "reminders": [
+    {
+      "id": "reminder1",
+      "name": "reminder_test_1",
+      "target_subscriber_list_id": "subscriber_list_1",
+      "text": "定例会開始5分前です。諸々よろしく。\n<mentions>",
+      "day": 0,
+      "hour": 3,
+      "minute": 0,
+      "visibility": "private",
+      "is_active": "true"
+    }
+  ],
+  "subscriber_manager": {
+    "subscriber_lists": [
+      {
+        "id": "subscriber_list_1",
+        "name": "subscriber_list_name_1"
+      }
+    ]
+  }
+}

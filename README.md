@@ -6,7 +6,7 @@
 
 ### bot-config.json
 
-```
+```js
 {
   "admin": "moai_test", //管理者ユーザ名　今のところ意味なし
   "description": "text", //ボットアカウントのbio欄上部に記載する説明
@@ -21,7 +21,7 @@ target_tag がボットのホームタイムラインに投稿されると検知
 
 ### bot-config.json
 
-```
+```js
   {
     ...
     "tagbot": [ //配列内の設定オブジェクトごとに独立したボット
@@ -55,7 +55,7 @@ target_tag がボットのホームタイムラインに投稿されると検知
 
 ### bot-status.json
 
-```
+```js
 {
   ...
   "tagbot": {
@@ -92,7 +92,7 @@ target_tag がボットのホームタイムラインに投稿されると検知
 
 ### bot-config.json
 
-```
+```js
 {
   ...
   "reminders": [ //配列内要素ごとに独立
@@ -115,7 +115,7 @@ target_tag がボットのホームタイムラインに投稿されると検知
 
 ### bot-status.json
 
-```
+```js
 {
   ...
   "reminder": {
@@ -138,7 +138,7 @@ target_tag がボットのホームタイムラインに投稿されると検知
 
 ### bot-config.json
 
-```
+```js
 {
   ...
   "subscriber_manager": {
